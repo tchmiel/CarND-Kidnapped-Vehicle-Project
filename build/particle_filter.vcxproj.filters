@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\src\particle_filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E44DBFD1-65DA-38AB-9AAC-E3BAA8203D94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
