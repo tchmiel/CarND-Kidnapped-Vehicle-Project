@@ -6,47 +6,47 @@ Id flags:
 
 The output was:
 0
-Microsoft (R) Build Engine version 15.6.81.24225 for .NET Framework
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 2/17/2018 5:05:35 PM.
-Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+Build started 2/23/2018 9:27:12 AM.
+Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdC.tlog\".
 InitializeBuildStatus:
   Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 VcpkgTripletSelection:
-  Using triplet "x86-windows" from "E:\vcpkg\installed\x86-windows\"
+  Using triplet "x86-windows" from "D:\vcpkg\installed\x86-windows\"
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\CL.exe /c /I"E:\vcpkg\installed\x86-windows\include" /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /I"D:\vcpkg\installed\x86-windows\include" /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
   CMakeCCompilerId.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.1\CompilerIdC\.\CompilerIdC.exe
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.0\CompilerIdC\.\CompilerIdC.exe
 AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.1\CompilerIdC\.\CompilerIdC.exe" "E:\vcpkg\installed\x86-windows\debug\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.0\CompilerIdC\.\CompilerIdC.exe" "D:\vcpkg\installed\x86-windows\debug\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
-  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\Hostx86\x86\cl.exe
+  CMAKE_C_COMPILER=D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Done Building Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+Done Building Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.88
+Time Elapsed 00:00:02.23
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/3.10.1/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -55,258 +55,258 @@ Id flags:
 
 The output was:
 0
-Microsoft (R) Build Engine version 15.6.81.24225 for .NET Framework
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 2/17/2018 5:05:38 PM.
-Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+Build started 2/23/2018 9:27:15 AM.
+Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdCXX.tlog\".
 InitializeBuildStatus:
   Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 VcpkgTripletSelection:
-  Using triplet "x86-windows" from "E:\vcpkg\installed\x86-windows\"
+  Using triplet "x86-windows" from "D:\vcpkg\installed\x86-windows\"
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\CL.exe /c /I"E:\vcpkg\installed\x86-windows\include" /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /I"D:\vcpkg\installed\x86-windows\include" /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
   CMakeCXXCompilerId.cpp
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.1\CompilerIdCXX\.\CompilerIdCXX.exe
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.0\CompilerIdCXX\.\CompilerIdCXX.exe
 AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.1\CompilerIdCXX\.\CompilerIdCXX.exe" "E:\vcpkg\installed\x86-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.0\CompilerIdCXX\.\CompilerIdCXX.exe" "D:\vcpkg\installed\x86-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
-  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\Hostx86\x86\cl.exe
+  CMAKE_CXX_COMPILER=D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Done Building Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+Done Building Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\3.10.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.62
+Time Elapsed 00:00:02.18
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/3.10.1/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp
+Change Dir: Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/Preview/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_ba773.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine version 15.6.81.24225 for .NET Framework
+Run Build Command:"D:/VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e0b86.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 2/17/2018 5:05:41 PM.
-Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_ba773.vcxproj" on node 1 (default targets).
+Build started 2/23/2018 9:27:17 AM.
+Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_e0b86.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_ba773.dir\Debug\".
-  Creating directory "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_ba773.dir\Debug\cmTC_ba773.tlog\".
+  Creating directory "cmTC_e0b86.dir\Debug\".
+  Creating directory "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e0b86.dir\Debug\cmTC_e0b86.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_ba773.dir\Debug\cmTC_ba773.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_e0b86.dir\Debug\cmTC_e0b86.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 VcpkgTripletSelection:
-  Using triplet "x86-windows" from "E:\vcpkg\installed\x86-windows\"
+  Using triplet "x86-windows" from "D:\vcpkg\installed\x86-windows\"
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\CL.exe /c /I"E:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba773.dir\Debug\\" /Fd"cmTC_ba773.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\testCCompiler.c"
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26127.1 for x86
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /I"D:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0b86.dir\Debug\\" /Fd"cmTC_e0b86.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25835 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /I"E:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba773.dir\Debug\\" /Fd"cmTC_ba773.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cl /c /I"D:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0b86.dir\Debug\\" /Fd"cmTC_e0b86.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\testCCompiler.c"
   testCCompiler.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_ba773.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ba773.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ba773.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ba773.dir\Debug\testCCompiler.obj
-  cmTC_ba773.vcxproj -> Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_ba773.exe
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_e0b86.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_e0b86.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_e0b86.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e0b86.dir\Debug\testCCompiler.obj
+  cmTC_e0b86.vcxproj -> Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_e0b86.exe
 AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_ba773.exe" "E:\vcpkg\installed\x86-windows\debug\bin" "cmTC_ba773.dir\Debug\cmTC_ba773.tlog\cmTC_ba773.write.1u.tlog" "cmTC_ba773.dir\Debug\vcpkg.applocal.log"
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_e0b86.exe" "D:\vcpkg\installed\x86-windows\debug\bin" "cmTC_e0b86.dir\Debug\cmTC_e0b86.tlog\cmTC_e0b86.write.1u.tlog" "cmTC_e0b86.dir\Debug\vcpkg.applocal.log"
 FinalizeBuildStatus:
-  Deleting file "cmTC_ba773.dir\Debug\cmTC_ba773.tlog\unsuccessfulbuild".
-  Touching "cmTC_ba773.dir\Debug\cmTC_ba773.tlog\cmTC_ba773.lastbuildstate".
-Done Building Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_ba773.vcxproj" (default targets).
+  Deleting file "cmTC_e0b86.dir\Debug\cmTC_e0b86.tlog\unsuccessfulbuild".
+  Touching "cmTC_e0b86.dir\Debug\cmTC_e0b86.tlog\cmTC_e0b86.lastbuildstate".
+Done Building Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_e0b86.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.54
+Time Elapsed 00:00:02.52
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp
+Change Dir: Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/Preview/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_893d7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine version 15.6.81.24225 for .NET Framework
+Run Build Command:"D:/VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_d9968.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 2/17/2018 5:05:44 PM.
-Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_893d7.vcxproj" on node 1 (default targets).
+Build started 2/23/2018 9:27:20 AM.
+Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_d9968.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_893d7.dir\Debug\".
-  Creating directory "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_893d7.dir\Debug\cmTC_893d7.tlog\".
+  Creating directory "cmTC_d9968.dir\Debug\".
+  Creating directory "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d9968.dir\Debug\cmTC_d9968.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_893d7.dir\Debug\cmTC_893d7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_d9968.dir\Debug\cmTC_d9968.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 VcpkgTripletSelection:
-  Using triplet "x86-windows" from "E:\vcpkg\installed\x86-windows\"
+  Using triplet "x86-windows" from "D:\vcpkg\installed\x86-windows\"
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\CL.exe /c /I"E:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_893d7.dir\Debug\\" /Fd"cmTC_893d7.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "E:\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26127.1 for x86
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /I"D:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9968.dir\Debug\\" /Fd"cmTC_d9968.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "D:\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25835 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /I"E:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_893d7.dir\Debug\\" /Fd"cmTC_893d7.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "E:\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  cl /c /I"D:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9968.dir\Debug\\" /Fd"cmTC_d9968.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "D:\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
   CMakeCCompilerABI.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_893d7.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_893d7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_893d7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_893d7.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_893d7.vcxproj -> Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_893d7.exe
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_d9968.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_d9968.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_d9968.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d9968.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_d9968.vcxproj -> Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_d9968.exe
 AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_893d7.exe" "E:\vcpkg\installed\x86-windows\debug\bin" "cmTC_893d7.dir\Debug\cmTC_893d7.tlog\cmTC_893d7.write.1u.tlog" "cmTC_893d7.dir\Debug\vcpkg.applocal.log"
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_d9968.exe" "D:\vcpkg\installed\x86-windows\debug\bin" "cmTC_d9968.dir\Debug\cmTC_d9968.tlog\cmTC_d9968.write.1u.tlog" "cmTC_d9968.dir\Debug\vcpkg.applocal.log"
 FinalizeBuildStatus:
-  Deleting file "cmTC_893d7.dir\Debug\cmTC_893d7.tlog\unsuccessfulbuild".
-  Touching "cmTC_893d7.dir\Debug\cmTC_893d7.tlog\cmTC_893d7.lastbuildstate".
-Done Building Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_893d7.vcxproj" (default targets).
+  Deleting file "cmTC_d9968.dir\Debug\cmTC_d9968.tlog\unsuccessfulbuild".
+  Touching "cmTC_d9968.dir\Debug\cmTC_d9968.tlog\cmTC_d9968.lastbuildstate".
+Done Building Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_d9968.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.53
+Time Elapsed 00:00:02.23
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp
+Change Dir: Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/Preview/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_22c10.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine version 15.6.81.24225 for .NET Framework
+Run Build Command:"D:/VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_74733.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 2/17/2018 5:05:47 PM.
-Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_22c10.vcxproj" on node 1 (default targets).
+Build started 2/23/2018 9:27:22 AM.
+Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_74733.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_22c10.dir\Debug\".
-  Creating directory "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_22c10.dir\Debug\cmTC_22c10.tlog\".
+  Creating directory "cmTC_74733.dir\Debug\".
+  Creating directory "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_74733.dir\Debug\cmTC_74733.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_22c10.dir\Debug\cmTC_22c10.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_74733.dir\Debug\cmTC_74733.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 VcpkgTripletSelection:
-  Using triplet "x86-windows" from "E:\vcpkg\installed\x86-windows\"
+  Using triplet "x86-windows" from "D:\vcpkg\installed\x86-windows\"
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\CL.exe /c /I"E:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_22c10.dir\Debug\\" /Fd"cmTC_22c10.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26127.1 for x86
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /I"D:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_74733.dir\Debug\\" /Fd"cmTC_74733.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25835 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /I"E:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_22c10.dir\Debug\\" /Fd"cmTC_22c10.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cl /c /I"D:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_74733.dir\Debug\\" /Fd"cmTC_74733.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   testCXXCompiler.cxx
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_22c10.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_22c10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_22c10.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_22c10.dir\Debug\testCXXCompiler.obj
-  cmTC_22c10.vcxproj -> Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_22c10.exe
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_74733.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_74733.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_74733.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_74733.dir\Debug\testCXXCompiler.obj
+  cmTC_74733.vcxproj -> Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_74733.exe
 AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_22c10.exe" "E:\vcpkg\installed\x86-windows\debug\bin" "cmTC_22c10.dir\Debug\cmTC_22c10.tlog\cmTC_22c10.write.1u.tlog" "cmTC_22c10.dir\Debug\vcpkg.applocal.log"
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_74733.exe" "D:\vcpkg\installed\x86-windows\debug\bin" "cmTC_74733.dir\Debug\cmTC_74733.tlog\cmTC_74733.write.1u.tlog" "cmTC_74733.dir\Debug\vcpkg.applocal.log"
 FinalizeBuildStatus:
-  Deleting file "cmTC_22c10.dir\Debug\cmTC_22c10.tlog\unsuccessfulbuild".
-  Touching "cmTC_22c10.dir\Debug\cmTC_22c10.tlog\cmTC_22c10.lastbuildstate".
-Done Building Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_22c10.vcxproj" (default targets).
+  Deleting file "cmTC_74733.dir\Debug\cmTC_74733.tlog\unsuccessfulbuild".
+  Touching "cmTC_74733.dir\Debug\cmTC_74733.tlog\cmTC_74733.lastbuildstate".
+Done Building Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_74733.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.69
+Time Elapsed 00:00:02.24
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp
+Change Dir: Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/Preview/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a635f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine version 15.6.81.24225 for .NET Framework
+Run Build Command:"D:/VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_d6f77.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 2/17/2018 5:05:50 PM.
-Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_a635f.vcxproj" on node 1 (default targets).
+Build started 2/23/2018 9:27:25 AM.
+Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_d6f77.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_a635f.dir\Debug\".
-  Creating directory "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_a635f.dir\Debug\cmTC_a635f.tlog\".
+  Creating directory "cmTC_d6f77.dir\Debug\".
+  Creating directory "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d6f77.dir\Debug\cmTC_d6f77.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_a635f.dir\Debug\cmTC_a635f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_d6f77.dir\Debug\cmTC_d6f77.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 VcpkgTripletSelection:
-  Using triplet "x86-windows" from "E:\vcpkg\installed\x86-windows\"
+  Using triplet "x86-windows" from "D:\vcpkg\installed\x86-windows\"
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\CL.exe /c /I"E:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a635f.dir\Debug\\" /Fd"cmTC_a635f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "E:\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26127.1 for x86
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /I"D:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d6f77.dir\Debug\\" /Fd"cmTC_d6f77.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "D:\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25835 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /I"E:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a635f.dir\Debug\\" /Fd"cmTC_a635f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "E:\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /I"D:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d6f77.dir\Debug\\" /Fd"cmTC_d6f77.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "D:\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
   CMakeCXXCompilerABI.cpp
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_a635f.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a635f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a635f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a635f.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_a635f.vcxproj -> Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_a635f.exe
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_d6f77.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_d6f77.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_d6f77.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d6f77.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_d6f77.vcxproj -> Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_d6f77.exe
 AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_a635f.exe" "E:\vcpkg\installed\x86-windows\debug\bin" "cmTC_a635f.dir\Debug\cmTC_a635f.tlog\cmTC_a635f.write.1u.tlog" "cmTC_a635f.dir\Debug\vcpkg.applocal.log"
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_d6f77.exe" "D:\vcpkg\installed\x86-windows\debug\bin" "cmTC_d6f77.dir\Debug\cmTC_d6f77.tlog\cmTC_d6f77.write.1u.tlog" "cmTC_d6f77.dir\Debug\vcpkg.applocal.log"
 FinalizeBuildStatus:
-  Deleting file "cmTC_a635f.dir\Debug\cmTC_a635f.tlog\unsuccessfulbuild".
-  Touching "cmTC_a635f.dir\Debug\cmTC_a635f.tlog\cmTC_a635f.lastbuildstate".
-Done Building Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_a635f.vcxproj" (default targets).
+  Deleting file "cmTC_d6f77.dir\Debug\cmTC_d6f77.tlog\unsuccessfulbuild".
+  Touching "cmTC_d6f77.dir\Debug\cmTC_d6f77.tlog\cmTC_d6f77.lastbuildstate".
+Done Building Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_d6f77.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.85
+Time Elapsed 00:00:02.27
 
 
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp
+Change Dir: Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/Preview/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_572fc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine version 15.6.81.24225 for .NET Framework
+Run Build Command:"D:/VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_fea89.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 2/17/2018 5:05:53 PM.
-Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_572fc.vcxproj" on node 1 (default targets).
+Build started 2/23/2018 9:27:27 AM.
+Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_fea89.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_572fc.dir\Debug\".
-  Creating directory "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_572fc.dir\Debug\cmTC_572fc.tlog\".
+  Creating directory "cmTC_fea89.dir\Debug\".
+  Creating directory "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fea89.dir\Debug\cmTC_fea89.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_572fc.dir\Debug\cmTC_572fc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_fea89.dir\Debug\cmTC_fea89.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 VcpkgTripletSelection:
-  Using triplet "x86-windows" from "E:\vcpkg\installed\x86-windows\"
+  Using triplet "x86-windows" from "D:\vcpkg\installed\x86-windows\"
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\CL.exe /c /I"E:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_572fc.dir\Debug\\" /Fd"cmTC_572fc.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\feature_tests.cxx"
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.13.26127.1 for x86
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /I"D:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fea89.dir\Debug\\" /Fd"cmTC_fea89.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25835 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /I"E:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_572fc.dir\Debug\\" /Fd"cmTC_572fc.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\feature_tests.cxx"
+  cl /c /I"D:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fea89.dir\Debug\\" /Fd"cmTC_fea89.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\feature_tests.cxx"
   feature_tests.cxx
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.13.26127\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_572fc.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"E:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_572fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_572fc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_572fc.dir\Debug\feature_tests.obj
-  cmTC_572fc.vcxproj -> Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_572fc.exe
+  D:\VisualStudio2017\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_fea89.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"D:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_fea89.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_fea89.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_fea89.dir\Debug\feature_tests.obj
+  cmTC_fea89.vcxproj -> Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_fea89.exe
 AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_572fc.exe" "E:\vcpkg\installed\x86-windows\debug\bin" "cmTC_572fc.dir\Debug\cmTC_572fc.tlog\cmTC_572fc.write.1u.tlog" "cmTC_572fc.dir\Debug\vcpkg.applocal.log"
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_fea89.exe" "D:\vcpkg\installed\x86-windows\debug\bin" "cmTC_fea89.dir\Debug\cmTC_fea89.tlog\cmTC_fea89.write.1u.tlog" "cmTC_fea89.dir\Debug\vcpkg.applocal.log"
 FinalizeBuildStatus:
-  Deleting file "cmTC_572fc.dir\Debug\cmTC_572fc.tlog\unsuccessfulbuild".
-  Touching "cmTC_572fc.dir\Debug\cmTC_572fc.tlog\cmTC_572fc.lastbuildstate".
-Done Building Project "Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_572fc.vcxproj" (default targets).
+  Deleting file "cmTC_fea89.dir\Debug\cmTC_fea89.tlog\unsuccessfulbuild".
+  Touching "cmTC_fea89.dir\Debug\cmTC_fea89.tlog\cmTC_fea89.lastbuildstate".
+Done Building Project "Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\CMakeTmp\cmTC_fea89.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.81
+Time Elapsed 00:00:02.25
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers

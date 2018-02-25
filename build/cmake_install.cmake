@@ -1,4 +1,4 @@
-# Install script for directory: Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project
+# Install script for directory: Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "Z:/SDCar/Term2/CarND-Kidnapped-Vehicle-Project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "Z:/CarND/Term2/CarND-Kidnapped-Vehicle-Project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

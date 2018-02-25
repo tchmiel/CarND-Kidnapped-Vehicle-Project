@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="Z:\SDCar\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\04bbd2ab08b66ccee91415d5a530d499\generate.stamp.rule">
+    <CustomBuild Include="Z:\CarND\Term2\CarND-Kidnapped-Vehicle-Project\build\CMakeFiles\37d5eb2eee92bebf6a1a2f36b7e7c716\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{D0EBAF6B-CD75-35A2-9492-D19984138699}</UniqueIdentifier>
+      <UniqueIdentifier>{119C942A-13E9-359F-AE45-9B0234D66DB6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
